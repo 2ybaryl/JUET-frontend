@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --dark-blue: #012a4a;
+    --white: #fefcfb;
+    --mustard: #f6bd60;
+    --grey-white:#E3E5E5;
+    --OpenSans: 'Open Sans';
+    --Montserrat: 'Montserrat';
+    --Cardo: 'Cardo';
+    --Cinzel: 'Cinzel';
+    --Comfortaa: 'Comfortaa';
+    --Poppins: 'Poppins';
+    --Roboto: 'Roboto Slab';
+  }
+  .topBanner{
+      z-index: -1;
+     
+      position: relative;
+     height: 50vh;
+      width: 100%;
+      background-image: url("https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80");
+     background-size:cover;
+     background-repeat: no-repeat;
+    /*  -webkit-filter: grayscale(100%); */
+    
+  }
+  .sub-nav-container{
+      z-index: 2;
+  }
+  .topBanner h1{
+      position: absolute;
+      top: 50%;
+      left: 1%;
+      display: block;
+      color: black;
+      font-size: 65px;
+      font-family: var(--Cardo);
+      font-weight: 500;
+      font-style: bold;
+      text-transform: uppercase;
+  }
+  span{
+        font-size:90px;
+  }
+  .ctn-1{
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      margin: 15px;
+  }
+  #ctn-txt-1{
+    flex: 0.8;
+  }
+  .ctn-txt{
+  
+      font-family: var(--Cinzel);
+    font-weight: 400;
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      color: var(--dark-blue);
+      font-size: 55px;
+  }
+  .ctn-card{
+      padding: 35px 10px;
+      flex: 1;
+      background-color: #f6bd60;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+      margin: 10px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+#academicsPage p{
+      font-size: 18px;
+      margin: 0px 20px;
+ 
+      color: var(--dark-blue);
+
+  }
+  #card-2{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+#card-2 p {
+    color: var(--white);
+}
+.programs{
+    margin-top: 7%;
+}
+.program-card{
+  
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+}
+.prg-crd{
+    flex: 1;
+    border: 1px solid var(--dark-blue);
+}
+.prg-crd img{
+    width: 100%;
+    height: 50%;
+}
+.prg-crd h1{
+    margin: 10px 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: var(--Cardo);
+    color: var(--dark-blue);
+}
+.prg-crd h3{
+    margin: 10px 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+.prg-crd a{
+    margin: 15px 20px;
+    font-size: 18px;
+    font-family: var(--Cinzel);
+    font-weight: 600;
+    color: var(--dark-blue);
+
+}
+.spec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
