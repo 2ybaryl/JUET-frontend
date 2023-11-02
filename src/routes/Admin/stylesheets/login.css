@@ -1,4 +1,4 @@
-body {
+.container {
     margin: 0;
     padding: 0;
     background-color: #0f0f1a;
@@ -100,3 +100,18 @@ body {
     }
   }
   
+
+  #pos{
+    font-size: 50px;
+    /* width: 100px;
+    height: 25px; */
+    display: none;
+    color: #00ff00;
+  }
+  #neg{
+    font-size: 50px;
+    /* width: 100px;
+    height: 25px; */
+    display: none;
+    color: #ff0000;
+  }

@@ -30,8 +30,8 @@ class navbar extends React.Component {
                   <li><Link to = "#">Departments</Link></li>
                   <li><Link to = "#">T & P cell</Link></li>
                   <li><Link to = "#">Facilities</Link></li>
-                  <li><Link to = "#">Placements</Link></li>
-                  <li><Link to = "/faculty">Temp</Link></li>
+                  <li><Link to = "/placements">Placements</Link></li>
+                  <li><Link to = "/faculty">Faculty</Link></li>
                  {/*  <button class = "btn" id = "explore">Explore<FontAwesomeIcon icon="fa-solid fa-arrow-right" /></button> */}
               </ul>
           </div>

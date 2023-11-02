@@ -14,6 +14,8 @@ import AcademicsPage from "./routes/AcademicsPage";
 import FacultyPage from "./routes/FacultyPage";
 import reportWebVitals from './reportWebVitals';
 import Login from "./routes/Admin/Login";
+import Dashboard from "./routes/Admin/Dashboard";
+import Placement from './routes/Placement';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,8 +26,10 @@ root.render(
       <Route path="about" element={<AboutPage />} />
       <Route path = "contact" element = {<ContactPage></ContactPage>}/>
       <Route path = "academics" element = {<AcademicsPage/>}></Route>
+      <Route path = "/placements" element = {<Placement />}></Route>
       <Route path = "faculty" element = {<FacultyPage/>}></Route>
       <Route path = "/JUET/CMS/login" element = {<Login/>}></Route>
+      <Route path = "/JUET/CMS/dashboard" element = {<Dashboard/>}></Route>
   </Routes>
   </React.StrictMode>
   </BrowserRouter>

@@ -45,9 +45,9 @@ font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
 .faculty-container{
-   margin-top: 25px;
-   width: 75%;
-
+   margin-top: 0px;
+   width: 100%;
+    height: 70vh !important;
    margin-left: auto;
    margin-right: auto;
    height: auto;
@@ -122,4 +122,47 @@ font-family: 'Roboto Slab', serif;
 .img-sub-title{
     font-size: 18px;
     margin-bottom: 5px;
+}
+
+.faculty-container-2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+#facultyPage .side-navigation {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    flex: 1;
+    height: 70vh;
+    border: 0.1px solid grey;
+    font-family: var(--Poppins);
+}
+
+.faculty-content{
+    height: 70vh !important;
+    flex: 5;
+    padding-bottom: 25px;
+}
+
+.f-li{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.f-li button{
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.side-navigation h2{
+    text-align: center;
+    margin-top: 15px;
 }

@@ -1,0 +1,17 @@
+.choices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-btn{
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:150%;
+    flex: 1;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(61,61,61);
+    color: white
+}

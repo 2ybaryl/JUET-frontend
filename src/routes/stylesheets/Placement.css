@@ -1,0 +1,76 @@
+.Placement .title {
+    margin-top: 8%;
+    margin-left: 40px;
+    color: var(--white);
+    background-color: #012a4a;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .year-ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .year-selection{
+    background-color: #012a4a;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    width: 50%;
+    font-size: 20px;
+  }
+  .year-selection button{
+    color: white;
+    background-color: #012a4a;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 70px;
+  }
+  .placement-card {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #012a4a;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .p-card {
+    border: none;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    width: 280px;
+    height: 375px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Remove flex-direction: column; */
+  }
+  .p-card img{
+    height: 70%;
+  }
+  .p-card h3{
+    margin-top: 7px;
+    font-size: 16px;
+    color: #012a4a;
+  }
+  .p-card p {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
